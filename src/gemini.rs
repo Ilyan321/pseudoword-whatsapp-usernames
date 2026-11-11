@@ -30,7 +30,7 @@ pub fn generate_with_gemini(api_key: &str) -> Result<String, Box<dyn std::error:
         .build()?;
 
     let url = format!(
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={}",
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent?key={}",
         api_key
     );
 
